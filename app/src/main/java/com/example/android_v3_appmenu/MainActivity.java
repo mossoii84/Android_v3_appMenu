@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     @Override   // ставим верхнее меню
@@ -30,21 +32,26 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    //ЗДЕСЬ НУЖНО ЧТОБЫ ТЕКСТ НЕ МЕНЯЛСЯ А БЫЛ ВСЕГДА ОДИН!!!
+
     //При нажатии появляется/проподает выпадающее боковая панель
     @Override  // по нажатию на кнопку плюс в меню, появляется всплывающее окно
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         TextView textView = (TextView)findViewById(R.id.textForPlus);
         LinearLayout linearLayout = (LinearLayout)findViewById(R.id.linerForVerticalMenu);
+
+
         int id = item.getItemId();
         // itemPlus -  добавил над классом import static com.example.android_v3_appmenu.R.id.itemPlus;
         if (id == itemPlus && !x) {
             linearLayout.setVisibility(View.VISIBLE);
-            textView.setText("есть меню");
+//          textView.setText("есть меню");
+            textView.setText( textView.getText());
             x=true;
         }
         else if (x) {
             linearLayout.setVisibility(View.INVISIBLE);
-            textView.setText("нет меню");
+            textView.setText( textView.getText());
             x=false;
         }
         return super.onOptionsItemSelected(item);
@@ -54,3 +61,24 @@ public class MainActivity extends AppCompatActivity {
 
 
 }
+
+
+    //При нажатии появляется/проподает выпадающее боковая панель
+//    @Override  // по нажатию на кнопку плюс в меню, появляется всплывающее окно
+//    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+//        TextView textView = (TextView)findViewById(R.id.textForPlus);
+//        LinearLayout linearLayout = (LinearLayout)findViewById(R.id.linerForVerticalMenu);
+//        int id = item.getItemId();
+//        // itemPlus -  добавил над классом import static com.example.android_v3_appmenu.R.id.itemPlus;
+//        if (id == itemPlus && !x) {
+//            linearLayout.setVisibility(View.VISIBLE);
+//            textView.setText("есть меню");
+//            x=true;
+//        }
+//        else if (x) {
+//            linearLayout.setVisibility(View.INVISIBLE);
+//            textView.setText("нет меню");
+//            x=false;
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }

@@ -1,9 +1,12 @@
 <resources>
     <!-- Base application theme. -->
-<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
     <!-- убрали турбар оригинальный NoActionBar, чтобы поставить свой -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-    <!-- Customize your theme here. -->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+
+<!--        добавил белый цвет текста в toolbar-->
+        <item name="android:textColorPrimary">@android:color/white</item>
+
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>

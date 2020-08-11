@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Android_v3_appMenu</string>
+<!--    <string name="app_name">Android_v3_appMenu</string>-->
+
+    <!--    задаем title  надпись для toolbar-->
+    <string name="app_name">мой титры toolbar</string>
+
 </resources>

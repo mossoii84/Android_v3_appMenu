@@ -23,10 +23,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         // активируем наш турбар для всех, добавить правильный импорт import androidx.appcompat.widget.Toolbar;
-        Toolbar toolbar = (Toolbar) findViewById(R.id.myToolbar);
-        setSupportActionBar(toolbar);
+//        Toolbar toolbar = (Toolbar) findViewById(R.id.myToolbar);
+//        setSupportActionBar(toolbar);
 
     }
 

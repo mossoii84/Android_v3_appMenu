@@ -7,9 +7,10 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
+import androidx.appcompat.widget.Toolbar;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 
 import static com.example.android_v3_appmenu.R.id.itemPlus;
 public class MainActivity extends AppCompatActivity {
@@ -21,6 +22,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        // активируем наш турбар для всех, добавить правильный импорт import androidx.appcompat.widget.Toolbar;
+        Toolbar toolbar = (Toolbar) findViewById(R.id.myToolbar);
+        setSupportActionBar(toolbar);
 
     }
 

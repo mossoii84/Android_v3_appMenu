@@ -13,6 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:padding="8dp"
         >
 
         <TextView
@@ -20,7 +21,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="left"
-            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl suspendisse vitae et, venenatis. Magna pharetra elementum imperdiet tellus sagittis a sit lacus. Tortor rhoncus, amet sagittis proin. Magna lacus auctor morbi ultrices enim egestas massa velit. Dapibus aliquet consectetur vel ac turpis a. Semper at pretium tortor sit. Non dolor purus vulputate quam in urna. Volutpat pretium, maecenas libero tincidunt scelerisque id. Rhoncus sollicitudin massa elementum porttitor nibh. Donec interdum commodo id in. Tincidunt sit faucibus vitae pretium viverra viverra sit. Commodo nisi, laoreet consequat aliquam vivamus congue curabitur suspendisse orci.Iaculis mauris rutrum leo nisl. Ut."
+            android:textColor="#DE000000"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl suspendisse vitae et, venenatis. Magna pharetra elementum imperdiet tellus sagittis a sit lacus. Tortor rhoncus, amet sagittis proin. Magna lacus auctor morbi ultrices enim egestas massa velit. Dapibus aliquet consectetur vel ac turpis a. Semper at pretium tortor sit. Non dolor purus vulputate quam in urna. Volutpat pretium, maecenas libero tincidunt scelerisque id. Rhoncus sollicitudin massa elementum porttitor nibh. Donec interdum commodo id in. Tincidunt sit faucibus vitae pretium viverra viverra sit. Commodo nisi, laoreet consequat aliquam vivamus congue curabitur suspendisse orci.Iaculis mauris rutrum leo nisl. Ut.
+Шедший впереди отомкнул дверь французским ключом и вошел. За ним вошел молодой парень, который при этом неловко сдернул кепку с головы. На нем была простая грубая одежда, пахнувшая морем; в просторном холле он как-то сразу оказался не на месте. Он не знал, что делать со своей кепкой, и собрался уже запихнуть ее в карман, но в это время спутник взял кепку у него из рук и сделал это так просто и естественно, что неуклюжий парень был тронут. «Он понимает, – пронеслось у него в голове, – он меня не выдаст».
+Вперевалку, широко расставляя ноги, словно пол под ним опускался и поднимался на морской волне, он пошел за своим спутником. Огромные комнаты, казалось, были слишком тесны для его размашистой походки, – он все время боялся зацепить плечом за дверь или смахнуть какую-нибудь безделушку с камина. Он лавировал между различными предметами, преувеличивая опасность, существовавшую больше в его воображении. Между роялем и столом, заваленным книгами, могло свободно пройти шесть человек, но он отважился на это лишь с замиранием сердца. Его тяжелые руки беспомощно болтались, он не знал, что с ними делать. И когда вдруг ему отчетливо представилось, что он вот-вот заденет книги на столе, он, как испуганный конь, отпрянул в сторону и едва не повалил табурет у рояля. Он смотрел на своего, уверенно шагавшего спутника, и впервые в жизни подумал о том, как неуклюжа его собственная походка, и как она отличается от походки других людей. На мгновение его обожгло стыдом от этой мысли.
+Капли пота "
             android:textSize="20sp" />
     </LinearLayout>
 
